@@ -1,0 +1,52 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding: 0;
+    background-color:grey;
+}
+
+ul,ol li{
+    list-style: none;
+}
+
+.menu li{
+    display: inline;
+    padding-left: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+    font: bold;
+}
+.menu{
+    background-color:white;
+}
+.menu img{
+    width: 70px;
+}
+
+.estilo-imagem{
+    border: solid #000 5px;
+    border-radius: 360px;
+}
+.banner > h1{
+    color: blue;
+    font-family: 'Niramit', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.banner > p{
+    text-align: center;
+}
+.banner{
+    padding-top: 185px;
+    padding-bottom: 185px;
+    background-color: red;
+    background-image: url(../images/comida.jpg);
+    background-size: cover;
+}
